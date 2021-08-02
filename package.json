@@ -1,0 +1,23 @@
+{
+  "name": "testedocker",
+  "version": "1.0.0",
+  "description": "aplicaçao de teste para aplicar conceitos de git, docker e kubernets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ana-vitoria-freitas"
+  },
+  "author": "Ana Vitoria Freitas",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
